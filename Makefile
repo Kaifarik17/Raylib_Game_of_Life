@@ -7,6 +7,7 @@ LD_FLAGS=-lraylib -framework Cocoa -framework OpenGL -framework IOKit -framework
 SRC=src/game.c
 
 all:
+	mkdir -p $(BUILD_DIR)
 	gcc $(FLAGS) -L$(LIB_DIR) $(LD_FLAGS) -I$(INCLUDE_DIR) -o $(BUILD_DIR)$(EXEC_NAME) $(SRC)
 
 clean:
