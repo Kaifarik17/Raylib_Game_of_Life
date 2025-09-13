@@ -1,0 +1,11 @@
+#ifndef SETTINGS_H
+#define SETTINGS_H
+
+#define DARKGREY (Color){25, 25, 20, 255}
+#define SCREEN_WIDTH 850
+#define SCREEN_HEIGHT 600
+#define GAME_WIDTH 600 / CELL_SIZE
+#define GAME_HEIGHT 600 / CELL_SIZE
+#define CELL_SIZE 10
+
+#endif
